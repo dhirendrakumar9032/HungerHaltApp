@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background-color: antiquewhite;
+  padding: 0 20px;
+
+  .header-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: red;
+  }
+
+  .nav-items {
+    ul {
+      display: flex;
+      gap: 30px;
+      list-style: none;
+    }
+    li {
+      font-size: 1rem;
+      font-weight: 700;
+    }
+
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+
+  .links-dropdown {
+    display: none;
+
+    @media (max-width: 768px) {
+      display: block;
+    }
+  }
+}
