@@ -5,6 +5,7 @@ import RestaurantCard from "./Components/RestaurantCard";
 import CardContainer from "./Components/Container/card-container";
 
 const App: React.FC = () => {
+  console.log('lsakhd')
   return (
     <>
       <Header />
